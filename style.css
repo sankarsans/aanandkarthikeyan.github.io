@@ -1,0 +1,53 @@
+body{
+  background-image: url('https://www.topcallme.com/wordpress/wp-content/uploads/2014/06/photodune-8105775-office-table-with-notepad-computer-and-coffee-cup-m.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lato', Helvetica,arial !important;
+
+}
+a{
+  text-decoration: none !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Rokkitt', Helvetica, arial !important;
+}
+.container{
+  width: 925px !important;
+  position: relative;
+  opacity: 0.95;
+}
+.sidebar{
+  height: 59em;
+  width: auto;
+}
+.sidebar img{
+  height: 100%;
+}
+body{
+  background-color: black;
+}
+.resume-body{
+  color: #36486b !important;
+}
+.panel{
+  border: none !important;
+  /*border-color: black !important;*/
+}
+.mini-project{
+  text-indent: 30px;
+}
+.profilepic{
+  max-width: 100px;
+
+}
+.profilepic img{
+  width:180px;
+  height:180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 12%;
+}
+.content{
+      box-shadow: 10px 10px 5px 5px#888888;
+}
