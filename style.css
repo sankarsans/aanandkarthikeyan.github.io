@@ -27,6 +27,9 @@ font-family: 'Rokkitt', Helvetica, arial !important;
 body{
   background-color: black;
 }
+.profile{
+  color: #36486b !important;
+}
 .resume-body{
   color: #36486b !important;
 }
