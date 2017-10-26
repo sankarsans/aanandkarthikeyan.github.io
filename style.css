@@ -17,6 +17,7 @@ font-family: 'Rokkitt', Helvetica, arial !important;
   position: relative;
   opacity: 0.95;
 }
+
 body{
   background-color: black;
 }
@@ -32,6 +33,14 @@ body{
 }
 .mini-project{
   text-indent: 30px;
+  font-weight: lighter !important;
+}
+.paper{
+  font-weight: lighter !important;
+}
+.b,.c,.d,.e,.f,.g,.h,.i,.j,.k,.l,.m,.n,.o{
+  font-weight: lighter !important;
+
 }
 .profilepic{
   /*max-width: 100px;*/
