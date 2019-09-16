@@ -1802,6 +1802,89 @@ img[height] {
   }
 }
 
+
+body {
+  background: linear-gradient(100deg, #a000ff, #002c80);
+  transition: all 1s;
+  color: white;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+div.ball {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 50%;
+  background: #e0a80d;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px 10px black;
+}
+.typed-cursor{
+  color: #e0a80d;
+  font-weight: 600;
+}
+
+.ball1 {
+  animation: bounce .7s infinite alternate;
+  animation-delay: 0s;
+}
+
+.ball2 {
+  animation: bounce .7s infinite alternate;
+  animation-delay: 0.1s;
+}
+
+.ball3 {
+  animation: bounce .7s infinite alternate;
+  animation-delay: 0.2s;
+}
+
+.ball4 {
+  animation: bounce .7s infinite alternate;
+  animation-delay: 0.3s;
+}
+
+.ball5 {
+  animation: bounce .7s infinite alternate;
+  animation-delay: 0.4s;
+}
+
+.ball6 {
+  animation: bounce .7s infinite alternate;
+  animation-delay: 0.5s;
+}
+
+.ball7 {
+  animation: bounce .7s infinite alternate;
+  animation-delay: 0.6s;
+}
+@keyframes bounce {
+  0% {
+    top: -30%; /* comment this to is another cool effect*/
+    background: #e0a80d;
+    transform: scale(1.3);
+  }
+  100% {
+    top: 0%;
+    background: #e0a80d;
+  }
+}
 .js-enabled .js-main-container {
   display: none;
 }
@@ -1868,6 +1951,7 @@ img[height] {
 .c-header__brand,
 .c-header__contact-divider {
   margin-bottom: 1.75rem;
+  margin-top: -19px;
 }
 
 .c-header__brand,
@@ -2047,7 +2131,22 @@ img[height] {
 .c-intro p {
   margin-bottom: 1.1rem;
 }
+.c-intro h3{
+  padding-bottom: 20px;
+}
 
+.quadrado {
+  width: 30px;
+  height: 30px;
+  background: #e0a80d;
+  border-radius:50%;
+  animation: crescendo 1.2s alternate infinite ease-in;
+}
+
+@keyframes crescendo {
+  0%   {transform: scale(.8);}
+  100% {transform: scale(1.5);}
+}
 @media (min-width: 600px) {
   .c-intro p {
     font-size: 1.22rem;
@@ -2285,6 +2384,12 @@ img[height] {
   .u-show-sm {
     display: none !important;
   }
+  .c-header__top,
+.c-header__brand,
+.c-header__contact-divider {
+  margin-bottom: 1.75rem;
+  margin-top: 0px;
+}
 }
 
 @media (min-width: 760px) {
