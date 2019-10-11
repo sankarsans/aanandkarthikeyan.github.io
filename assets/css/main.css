@@ -2449,3 +2449,7 @@ div.ball {
 .u-show-xl {
   display: none !important;
 }
+
+.desktop-video {
+  height: 225px;
+}
