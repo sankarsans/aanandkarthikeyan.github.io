@@ -202,18 +202,18 @@ a .fa,
   .t-section,
   .t-section__header,
   .t-section--header .t-section__header {
-    background: #2b2c2c;
+    background: #000;
   }
   .t-section__content {
-    background: #2d2e2e;
+    background: #000;
   }
   /* Even Sections */
   .t-section:nth-child(even),
   .t-section:nth-child(even) .t-section__header {
-    background: #292a2a;
+    background: #000;
   }
   .t-section:nth-child(even) .t-section__content {
-    background: #2b2c2c;
+    background: #000;
   }
   .t-section:nth-child(even) .t-timeline__point {
     box-shadow: 0 0 0 6px #2b2c2c;
