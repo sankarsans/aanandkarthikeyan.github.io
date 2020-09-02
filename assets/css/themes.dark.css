@@ -210,10 +210,10 @@ a .fa,
   /* Even Sections */
   .t-section:nth-child(even),
   .t-section:nth-child(even) .t-section__header {
-    background: #000;
+    background: #101010;
   }
   .t-section:nth-child(even) .t-section__content {
-    background: #000;
+    background: #101010;
   }
   .t-section:nth-child(even) .t-timeline__point {
     box-shadow: 0 0 0 6px #2b2c2c;

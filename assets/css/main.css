@@ -2474,7 +2474,10 @@ div.ball {
 
 
 .separtor_line{
-  border-bottom: 0.5px solid #101010;
+  border-bottom: 0.5px solid #404040;
+}
+.dark_bg{
+  background : #101010;
 }
 
 .case_study .o-section__description {
@@ -2486,8 +2489,8 @@ div.ball {
 } */
 .case_study_list{
  
-  padding-bottom: 40px;
-  margin-bottom: 40px;
+  /* padding-bottom: 40px;
+  margin-bottom: 40px; */
 
 }
 /* .c-main-container {
@@ -2495,6 +2498,7 @@ div.ball {
 } */
 .case_study_img{
   border-radius: 5px;
+  margin: 40px 0;
 }
 .w-100{
   width: 100%;
