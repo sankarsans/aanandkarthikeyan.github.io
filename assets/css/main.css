@@ -2474,25 +2474,25 @@ div.ball {
 
 
 .separtor_line{
-  border-bottom: 1px solid #484848;
+  border-bottom: 0.5px solid #101010;
 }
 
 .case_study .o-section__description {
   letter-spacing: 0px;
   font-size: 1rem;
 }
-.opacity_1{
+/* .opacity_1{
   opacity: 1!important;
-}
+} */
 .case_study_list{
  
   padding-bottom: 40px;
   margin-bottom: 40px;
 
 }
-.c-main-container {
+/* .c-main-container {
   height: -webkit-fill-available;
-}
+} */
 .case_study_img{
   border-radius: 5px;
 }
@@ -2550,10 +2550,7 @@ div.ball {
   padding-top: 10px;
   color: #A4A5A6;
 }
-.case-study-details p{
-  /* padding-top: 10px;
-  font-size: 1.22rem; */
-}
+
 .mt-50{
   margin-top: 50px;
 }
@@ -2561,7 +2558,7 @@ div.ball {
   letter-spacing: 0px;
   color: #FFFFFF;
   background: transparent linear-gradient(261deg, #F41C88 0%, #5DFFF9 100%) 0% 0% no-repeat padding-box;
-  border-radius: 10px;
+  border-radius: 3px;
   opacity: 1;
   font-size: 15px;
   display: inline-block;
@@ -3156,15 +3153,9 @@ div.ball {
 }
 .banner-animation{
   height: 100vh;
-
   display: flex;
   align-items: center;
-
 }
-
-
-
-
 
 @media (max-width: 1023px) {
   .case-study-banner{
