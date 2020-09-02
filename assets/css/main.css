@@ -2474,7 +2474,7 @@ div.ball {
 
 
 .separtor_line{
-  border-bottom: 0.5px solid #404040;
+  /* border-bottom: 0.5px solid #404040; */
 }
 .dark_bg{
   background : #101010;
@@ -2483,6 +2483,9 @@ div.ball {
 .case_study .o-section__description {
   letter-spacing: 0px;
   font-size: 1rem;
+}
+.text-center{
+  text-align: center;
 }
 /* .opacity_1{
   opacity: 1!important;
