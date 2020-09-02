@@ -13,7 +13,7 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */
 }
-
+@import "new.css";
 /**
  * Remove default margin.
  */
@@ -2452,4 +2452,203 @@ div.ball {
 
 .desktop-video {
   height: 225px;
+}
+
+
+
+
+
+
+
+
+.case_study .o-section__header {
+  text-align: left;
+  width: 50%;
+  padding-right: 30px !important;
+}
+
+.case_study .o-section__content {
+  width: 50%;
+}
+
+.case-study-details .o-section__content {
+  padding: 4.375rem 5.25rem 1.6625rem;
+}
+
+.case_study .o-section__description {
+  /* font: normal normal medium 30px/40px Helvetica Neue; */
+  letter-spacing: 0px;
+  font-size: 20px;
+  line-height: 40px;
+  opacity: 1;
+}
+
+.c-main-container {
+
+  height: -webkit-fill-available;
+
+}
+
+.case-study-details h3 {
+  /* font: normal normal medium 26px/40px Helvetica Neue; */
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.case-study-details ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+.case-study-details li {
+  /* font: normal normal normal 24px/50px Helvetica Neue; */
+  letter-spacing: 0px;
+  color: #DDDDDD;
+  opacity: 1;
+  font-size: 16px;
+  line-height: 30px;
+}
+.case-study-details h2{
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.case_study .o-section__description span {
+  color: #fff;
+}
+
+.case_study .o-section--header {
+  padding: 0px;
+}
+
+.case_study .bold_title {
+  color: #A4A5A6;
+  padding-top: 30px;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 74px;
+}
+
+.case_study p {
+  padding-top: 30px;
+  color: #A4A5A6;
+  font-size: 20px;
+  line-height: 30px;
+}
+.case-study-details p{
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.case_study .started_btn {
+  /* font: normal normal bold 17px/34px Helvetica Neue; */
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  background: transparent linear-gradient(261deg, #F41C88 0%, #5DFFF9 100%) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  font-size: 17px;
+  display: inline-block;
+  /* padding: 30px; */
+  width: 171px;
+  margin-top: 30px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.case_study .main-heading {
+
+  line-height: 90px;
+
+  text-transform: capitalize;
+
+  font-size: 90px;
+  font-weight: 800;
+}
+
+.case-study-details {
+  padding: 60px 0;
+}
+
+.case-study-wrapper {
+  background: #A49ABC;
+  border-radius: 20px 0 0 20px;
+  /* padding: 0px 0 30px; */
+  opacity: 1;
+  display: flex;
+}
+
+.case-study-wrapper .left-content {
+  padding: 30px;
+  width: 50%;
+}
+
+.case-study-wrapper .right-content {
+  width: 50%;
+}
+
+.case-study-wrapper h6 {
+  text-align: left;
+  /* font: normal normal medium 20px/40px Helvetica Neue; */
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  font-weight: normal;
+  opacity: 1;
+}
+
+.case-study-wrapper h2 {
+  /* font: normal normal bold 80px/100px Helvetica Neue; */
+
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 80px;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+  color: #DDDDDD;
+  opacity: 1;
+}
+
+.case-study-wrapper h4 {
+  text-align: left;
+  /* font: normal normal medium 30px/40px Helvetica Neue; */
+
+  font-size: 20px;
+  line-height: 30px;
+
+  letter-spacing: 0px;
+  color: #DDDDDD;
+  opacity: 1;
+  font-weight: normal;
+}
+
+.details-content .o-section__header {
+  font-size: 26px;
+}
+.gradient_one{
+  background: linear-gradient(98deg, #F443CB 0%, #B2FFFF 100%) ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient_two{
+  background: linear-gradient(263deg, #F41C88 0%, #5DFFF9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient_three{
+  background: linear-gradient(100deg, #F443CB 0%, #B2FFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
 }
