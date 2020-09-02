@@ -2552,6 +2552,12 @@ div.ball {
   font-weight: bold;
   line-height: normal;
 }
+.index_heading{
+  font-size: 40px;
+
+  letter-spacing: 10px;
+
+}
 
 .case_study p {
   padding-top: 10px;
