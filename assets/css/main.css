@@ -2531,7 +2531,24 @@ div.ball {
   list-style: none;
   margin-left: 0;
 }
-
+.flex_column{
+  flex-direction: column;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.case-study-details .w-100{
+  width: 100%;
+}
+  .fw-bold{
+    font-weight: bold;
+  }
+  .pt-30{
+    padding-top: 30px;
+  }
+  .mb-30{
+    margin-bottom: 30px;
+  }
 .case-study-details li {
   letter-spacing: 0px;
   color: #DDDDDD;
@@ -2562,10 +2579,13 @@ div.ball {
   padding-bottom: 60px;
 
 }
+.mt-50{
+  padding-top: 50px;
+}
 .case_study .bold_title {
   color: #A4A5A6;
   padding-top: 10px;
-  font-size: 1.8rem;
+  font-size: 4.3rem;
   font-weight: bold;
   line-height: normal;
 }
