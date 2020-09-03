@@ -2414,6 +2414,13 @@ div.ball {
   margin-bottom: 1.75rem;
   margin-top: 0px;
 }
+.o-content__body br{
+  display: none;
+}
+.c-intr1o p{
+  max-width: 90%;
+  margin: 0 auto;
+}
 }
 
 @media (min-width: 760px) {
@@ -2544,11 +2551,21 @@ div.ball {
 .case_study .o-section--header {
   padding: 0px;
 }
+.line_section .o-content{
+  padding-bottom: 0;
+}
+.line_section .separtor_line{
+  padding-bottom: 0;
+}
+.line_section .last_grid{
 
+  padding-bottom: 60px;
+
+}
 .case_study .bold_title {
   color: #A4A5A6;
   padding-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   line-height: normal;
 }
@@ -2624,9 +2641,12 @@ div.ball {
   font-weight: normal;
   opacity: 1;
 }
+.design_title{
+  font-size: 1.5rem;
+}
 
 .case-study-wrapper h2 {
-  /* font-size: 60px; */
+  font-size: 3.2rem;
   font-weight: bold;
   /* line-height: 80px; */
   text-transform: capitalize;
